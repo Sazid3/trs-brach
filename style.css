@@ -1,0 +1,123 @@
+body{                           margin: 0;
+                                font-family: 'Roboto Mono', monospace; }
+/* .menubar{                       float: right; padding: 2px; margin: 5px; background-color: black; 
+                                color: blue; rediue } */
+                          
+                          
+                          
+                          
+                                header {
+                                  background-color: #333;
+                                  color: #fff;
+                                  height: 60px;
+                                  display: flex;
+                                  align-items: center;
+                                  float: right;
+                                border-radius: 10px;}
+                                
+                                nav ul {
+                                  list-style: none;
+                                  margin: 0;
+                                  padding: 0;
+                                  display: flex;
+
+                                background-color: black;
+                              border-radius: 20px;}
+                                
+                                nav li {
+                                  margin-right: 20px;
+                                 }
+                                
+                                nav a {
+                                  color: #fff;
+                                  text-decoration: none ; font-weight: 700; 
+                                 } 
+                                 a:hover {
+                                  background-color: rgb(202, 202, 202);
+                                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{                             font-size: 50px; font-weight: bold; }
+
+
+
+h2{                              font-weight: 700;  }
+
+
+
+p{                              font-weight: bold; color: dimgray; }
+
+
+.iam{                           color: orangered;  }
+
+
+
+.half{                          width: 40%;
+                                float: left;;
+                                margin: 5px;
+                                padding: 2px;}
+
+
+
+.half img {                    width: 100%;}
+
+
+
+
+
+.background{                  background-image: url(image/bcg2.png);
+                              background-repeat: no-repeat;          }
+             
+             
+
+
+section{                     height: 500px;     }
+
+
+
+.linkbutton{                margin: 10px; 
+                            padding: 5px; 
+                            text-decoration: none ; 
+                            color: aliceblue;
+                            background-color:  tomato;
+                            border-radius: 5px;   
+                            font-weight: 700;       }
+
+
+.dream-area{                background-image: url(image/bcg2.png);  
+                            background-repeat: no-repeat;  
+                            background-position: right;}
+
+.single{                    margin-left: 50px;      box-shadow: 10px 10px 40px gray ; 
+                            border-radius: 6px ; height: 60%;
+                          background-color: #fff;}
+ 
+ 
+                            .presentation{             background-image: url(image/bg4.png); 
+                             background-repeat: no-repeat; background-position: right; }
+                            
+
+
+.wtf{                     margin-left: 20px; font-weight: 700;color: tomato; padding-left: 10px; }
+.wtf :hover {             color: yellow;}
+
+#border1{                 border-left: 7px solid; 
+                          border-image: linear-gradient(lightsalmon , tomato); border-image-slice: 1 ; }
+
+  #border2 {              border-left:  7px solid; border-image: linear-gradient(lightsalmon,blue) ; border-image-slice: 1 ;  }                        
+
+footer{ text-align: center; font-size: 12px; }
+  
